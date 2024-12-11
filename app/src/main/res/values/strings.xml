@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E3 - Notas</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hombre">Hombre</string>
+    <string name="TODO_title">Ejercicio 3 - Notas</string>
+    <string name="categorias">Categorías</string>
+    <string name="todo_tareas">Notas</string>
+    <string name="a_ade_tarea">Añade nota</string>
+    <string name="crear_tarea">Crear nota</string>
+    <string name="business">Trabajo</string>
+    <string name="personal">Personal</string>
+    <string name="other">Otros</string>
+</resources>
