@@ -21,7 +21,9 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
@@ -48,11 +50,11 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+//    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+//    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+//    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+//    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+//    implementation("com.squareup.retrofit2:retrofit:2.9.0")
     val room_version = "2.6.1"
 
     implementation("androidx.room:room-runtime:$room_version")
